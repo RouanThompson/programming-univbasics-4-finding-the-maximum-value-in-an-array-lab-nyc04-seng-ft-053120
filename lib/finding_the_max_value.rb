@@ -1,10 +1,10 @@
 def find_max_value(array)
-  current = 0
+  current_max = 0
 
   array.each do |i|
-    if i >= current
-      current = i
+    if i >= current_max
+      current_max = i
     end
   end
-  current
+  current_max
 end
